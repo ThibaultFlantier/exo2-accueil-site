@@ -1,0 +1,76 @@
+#welcome  {
+		text-align: center
+}
+
+h1
+{
+	color:red; font-family: 'Roboto', sans-serif;
+	text-shadow: 3px 3px green;
+}
+footer{
+	display: block;
+}
+{
+	display: inline-block;
+}
+nav, ul, li 
+{
+	display: inline-block;
+}
+body {
+	border: black 8px solid;
+	padding: 30px;
+	text-align: justify;
+}
+header
+{	
+	background-image: url("../img/banniere.jpg");
+	background-attachment: fixed;
+	height: 530px;
+
+
+}
+#img1 {
+	text-align: center
+}
+#fusee {
+	float: left
+}
+.clearfloat {
+	clear: left
+}
+
+a:hover
+{
+	color: green;
+}
+
+@media screen and (max-width: 640px)
+{
+	#fusee{
+		display: none;
+	}
+
+
+	header{
+		display: none
+	}
+}
+
+h3
+{
+	text-decoration: underline;
+}
+
+
+#section1 {
+ 
+}
+
+.container {
+	width: 600px;
+	height: 450px;
+	background-color: white;
+	overflow: scroll; /* showing scrollbars*/
+}
+
